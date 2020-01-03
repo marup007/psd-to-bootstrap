@@ -1,0 +1,265 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+body p{
+  color: black;
+}
+.header-section{
+  padding: 25px 0;
+  background: #F5F9FA;
+}
+
+.hero-section{
+  background:linear-gradient(#2b364b,#2b364b82), url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  padding: 70px 0;
+}
+.hero-section h1{
+  font-size: 90px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 70px;
+}
+.bod{
+  display: block;
+  width: 50%;
+  margin: auto;
+  border-bottom:2px solid #15A4FA;
+}
+.hero-section p{
+  color: white;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+.click{
+  border: 1px solid #15A4FA;
+  display: inline-block;
+  padding: 10px 50px;
+  text-align: center;
+  color: white;
+  background: transparent;
+  margin-top: 40px;
+  transition: 2s;
+}
+.click:hover{
+  color: #15A4FA;
+  background: white;
+}
+.hero-section .fa.fa-angle-down{
+  color: white;
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.description-section{
+  background: #F5F9FA;
+}
+.description-section h2{
+  font-size: 45px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.description-section p{
+  width: 80%;
+  margin-left: 10%;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.service-section{
+  padding: 70px 0;
+}
+.service-section h4 {
+  font-size: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.service-section p{
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.service-section .nab i {
+  color: white;
+  font-size: 46px;
+  background: #15A4FA;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  width: 84px;
+  height: 84px;
+}
+
+.portfolio-section{
+  padding: 70px 0;
+  text-align: center;
+  background: #F5F9FA;
+  overflow: hidden;
+}
+.portfolio-section h2{
+  font-size: 40px;
+  font-weight: bold;
+
+}
+.portfolio-section p{
+  margin-bottom: 70px;
+  font-size: 25px;
+}
+.single-image{
+  
+  display: block;
+  margin:;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+.portfolio-section .col-md-4{
+  width: 31%;
+  display: block;
+  margin: 1%;
+  float: left;
+}
+.col-md-4:last-child{
+
+}
+
+
+.img-overlay{
+
+  position: absolute;
+  background:#15a4fa;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  opacity: .5;
+  overflow: hidden;
+  transition: .8s;
+
+}
+.single-image:hover .img-overlay{
+  width: 100%;
+}
+.gallery-item{
+  width: 70%;
+  margin: auto;
+}
+.contact-section{
+  padding: 70px 0;
+  text-align: center;
+  background:url(../img/stay-here.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  box-sizing: border-box;
+  position: relative;
+  background-position: center;
+
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:#293347; 
+  height:750px;
+  opacity: .7;
+}
+.contact-section h2{
+  font-size: 65px;
+  margin-top: 80px;
+  color: white;
+}
+.contact-section p{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+form{
+  margin-top: 50px;
+  width: 60%;
+  margin:auto;
+  color: white;
+}
+.contact-section form input,
+.contact-section form textarea{
+
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+}
+.contact-section form input::placeholder{
+  color: white;
+  opacity: 1;
+}
+.contact-section form textarea::placeholder{
+  color: white;
+  opacity: 1;
+}
+.contact-section input[type="checkbox"]{
+  margin-right: 7px;
+}
+.btn{
+  padding: 8px 50px;
+  text-align: center;
+}
+
+.footer-section{
+  padding: 3px 0;
+}
+.footer-section p{
+  font-size: 15px;
+  margin-top: 18px;
+}
+.footer-section .fa{
+  background: #15A4FA;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  height: 48px;
+  width: 48px;
+  text-align: center;
+  display: inline-block;
+  transition: 2s;
+  border: 1px solid #15A4FA;
+}
+.footer-section ul{
+  margin-top: 15px;
+}
+.footer-section .fa:hover{
+  background: white;
+  border: 1px solid #15A4FA;
+  color: #15A4FA;
+}
+@media (min-width: 1200px)
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+}
+@media (min-width: 0px)(max-width: 500px)
+.col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 0px)(max-width: 500px)
+.col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+
+@media (min-width: 0px)(max-width: 500px)
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
